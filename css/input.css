@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden !important;
+}
+@media (max-width: 640px){
+  body{
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  .hero{
+    padding-top: 1px !important;
+    padding-bottom: 70px !important;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+  
+  .cards-up {
+    flex-direction: column;
+  }
+}
+
+
